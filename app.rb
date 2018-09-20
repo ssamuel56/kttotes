@@ -1,6 +1,5 @@
 # app.rb
-
-class ApplicationController < Sinatra::Base
+require 'sinatra'
   configure do
     set :views, "app/views"
     set :public_dir, "public"
@@ -36,4 +35,3 @@ class ApplicationController < Sinatra::Base
 # end
 
   # and more routes...
-end
