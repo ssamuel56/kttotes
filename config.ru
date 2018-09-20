@@ -1,3 +1,3 @@
-require './app.rb'
+require_relative './config/environment'
 
-run Demoapp::Web.new
+run ApplicationController
