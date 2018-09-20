@@ -1,4 +1,3 @@
-# app.rb
 require 'sinatra'
 
   get '/' do
@@ -7,6 +6,14 @@ require 'sinatra'
 
   get '/about' do
     erb :about
+  end
+
+  get '/shop' do
+    erb :shop
+  end
+
+  get '/contact' do
+    erb :contact
   end
 
 # A similar way to do this
