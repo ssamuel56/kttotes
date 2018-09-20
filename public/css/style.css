@@ -103,24 +103,31 @@ body{
   box-sizing: border-box;
 }
 
+.flexy{
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width: 900px) {
+  .flexy {
+    flex-wrap: wrap;
+  }
+}
+
 .block2{
+  flex-basis: auto;
+  flex-grow: 1;
   color: white;
-  float: left;
-  width: 30%;
-  border: none;
-  padding: 10px;
   margin-top: 62px;
   box-sizing: border-box;
 }
 
 .block3{
+  flex-basis: auto;
+  flex-grow: 1;
   background-color: purple;
   color: white;
-  float: right;
-  width: 70%;
-  border: none;
-  padding: 10px;
   margin-top: 90px;
+  padding-left: 2.5rem;
   box-sizing: border-box;
 }
 
@@ -132,7 +139,7 @@ body{
   padding: 10;
 }
 
-@media(max-width:600px){
+@media(max-width:800px){
   #main{
     width: 100%;
     float: none;
