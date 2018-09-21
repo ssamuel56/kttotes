@@ -107,10 +107,22 @@ body{
   display: flex;
   flex-direction: row;
 }
+
 @media(max-width: 900px) {
   .flexy {
     flex-wrap: wrap;
   }
+
+  .navbar{
+    position: fixed;
+    top: 0px;
+    left: 80%;
+    background-color: purple;
+    color: pink;
+    border-color: #3333ff;
+    border-width: medium;
+  }
+
 }
 
 .block2{
